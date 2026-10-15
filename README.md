@@ -10,11 +10,15 @@ Website daftar tamu undangan pernikahan mobile-friendly dengan fitur pencarian r
    - **List Undangan Della** (90 Tamu)
    - Badge jumlah tamu didesain cantik dengan aksen gold & ikon pengguna di bawah judul dropdown.
    - Dilengkapi bar ringkasan total tamu di bagian bawah list.
-4. **Tombol Ikon WhatsApp (Copy dengan Animasi Bersih)**:
+4. **Fitur Edit Nama Tamu Undangan**:
+   - Terletak tepat di samping kiri ikon WhatsApp dengan tombol pensil elegan bernuansa emas pernikahan.
+   - Popup modal modern dengan autofokus input, validasi otomatis, serta opsi mengembalikan ke nama awal jika diperlukan.
+   - Perubahan nama tersimpan otomatis di penyimpanan lokal browser (`localStorage`) sehingga tidak hilang saat halaman di-refresh.
+5. **Tombol Ikon WhatsApp (Copy dengan Animasi Bersih)**:
    - Cukup satu kali klik pada ikon WhatsApp, pesan template langsung tersalin dengan animasi ikon centang (✓) tanpa popup yang mengganggu.
-   - Template pesan sudah rapi (bold `*Warsadi & Della*` dan URL unik `https://warsadi.github.io/?to=[Nama+Tamu]`).
-5. **Format Nomor Tamu Rata Kiri**: Nomor urut tersusun rapi dengan alignment rata kiri (`tabular-nums`).
-6. **Auto Expand saat Pencarian**: Dropdown otomatis terbuka jika nama yang dicari ditemukan di dalam list.
+   - Template pesan dan tautan undangan otomatis menyesuaikan dengan nama tamu yang telah diedit.
+6. **Format Nomor Tamu Rata Kiri**: Nomor urut tersusun rapi dengan alignment rata kiri (`tabular-nums`).
+7. **Auto Expand saat Pencarian**: Dropdown otomatis terbuka jika nama yang dicari ditemukan di dalam list.
 
 ## 🚀 Cara Menjalankan
 
